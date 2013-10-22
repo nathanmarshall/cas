@@ -1,0 +1,121 @@
+/*
+	Main CSS stylesheet for CAS 
+
+*/
+
+
+
+/* ---- BASICS ---- */
+
+html{
+	
+	
+}
+
+
+body{
+	font-family: verdana, helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Wrapper for content  */
+div.content-wrapper{
+	margin: 0 auto;
+	max-width: 1024px;
+	height: 700px;
+	width: 100%;
+	background: #F2F5F9;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	
+	div.content-wrapper{
+		position: absolute;
+		z-index: 9999;	
+		top: 100px;
+		transition: .2s;
+	}
+		
+	}	
+
+/* ----- HEADER ----- */
+
+section.header{
+	width: 100%;
+	height: 100px;
+	background: #8A99B5;
+}
+
+section.header header{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+a.toggle-nav{
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	section.header{
+		position: absolute;
+		z-index: 9999;	
+		transition: .2s;
+	}
+	
+}
+
+/* ----- MENU ----- */
+
+aside.menu{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1024px;
+	background: #566984;
+}
+
+aside.menu ul{
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+}
+
+aside.menu ul li{
+	display: inline;
+	list-style-type: none;
+	padding: 0 1em;
+}
+
+aside.menu li a{
+	text-decoration: none;
+	color: white;
+}
+
+.slide{
+	-ms-transform: translate(250px,0);
+	-webkit-transform: translate(250px,0);
+	transform: translate(250px,0);
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	aside.menu{
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 250px;
+		height: 100%;
+		
+	}		
+	
+	aside.menu ul li{
+		display: inherit;
+	}
+	
+	aside.menu ul{
+	text-align: left;
+	}
+}
