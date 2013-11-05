@@ -100,6 +100,32 @@ aside.menu li a{
 }
 
 
+/* --- CONTENT ---- */
+
+
+/* Expander */
+
+article.expand{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	cursor:  pointer;
+}
+
+article.expand p{
+	margin: 0;
+	padding: 1em 0;
+}
+
+article.expand span{
+	float: right;
+}
+
+article.expand div{
+	display: none;
+}
+
+
+
 @media only screen and (max-width: 768px) {
 	
 	aside.menu{
