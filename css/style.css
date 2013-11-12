@@ -36,7 +36,7 @@ div.content-wrapper{
 	div.content-wrapper{
 		position: absolute;
 		z-index: 9999;	
-		top: 70px;
+		top: 370px;
 		transition: .2s;
 	}
 		
@@ -154,9 +154,17 @@ nav.menu li a{
 section.hero {
 	height: 300px;
 	width: 100%;
-	background: url('image') center center no-repeat;
+	background: url('../images/background.jpg') top center no-repeat;
 	background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
 	
+	section.hero{
+		position: absolute;
+		top: 70px;
+		z-index: 9999;
+	}
 }
 
 
