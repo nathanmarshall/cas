@@ -4,6 +4,11 @@
 	<?php include_once('header.php'); ?>
 		<!-- Menu -->
 		<?php include_once('menu.php'); ?>
+		
+		
+		<!-- Hero Start -->
+		<section class="hero"></section>
+		<!-- Hero End -->
 
 		<!-- Wrapper Start -->
 		<div class="content-wrapper">

@@ -53,6 +53,8 @@ section.header{
 section.header img{
 	height: 40px;
 	width: 40px;
+	position: absolute;
+	left: 0;
 }
 
 section.header header{
@@ -66,12 +68,20 @@ a.toggle-nav{
 }
 
 @media only screen and (max-width: 768px) {
-	
+
+
 	section.header{
 		position: absolute;
 		z-index: 9999;	
 		transition: .2s;
 	}
+	
+	section.header img{
+		margin: 0 auto;
+		display: block;
+		position: inherit;
+	}
+	
 	
 	
 	a.toggle-nav{
@@ -138,6 +148,17 @@ nav.menu li a{
 	
 	
 }
+
+/* ----- Hero ----- */
+
+section.hero {
+	height: 300px;
+	width: 100%;
+	background: url('image') center center no-repeat;
+	background-size: cover;
+	
+}
+
 
 /* --- CONTENT ---- */
 
