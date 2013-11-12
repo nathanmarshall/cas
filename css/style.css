@@ -8,14 +8,15 @@
 /* ---- BASICS ---- */
 
 html{
-	
+	font-family: times !important;
 	
 }
 
 
 body{
-	font-family: verdana, helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
+	
+	
 }
 
 /* Wrapper for content  */
@@ -121,14 +122,14 @@ nav.menu li a{
 		right: auto;
 		background: blue;
 	}
-	
-	.slide{
-		-ms-transform: translate(0,0);
-		-webkit-transform: translate(0,0);
-		transform: translate(0,0);
+
 }
 
 
+@media only screen and (max-width: 768px) {
+	
+	
+	
 }
 
 /* --- CONTENT ---- */
