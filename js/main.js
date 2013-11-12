@@ -18,7 +18,8 @@
 	$(function(){
 		
 		$('article').click(function(){
-			
+		
+			$(this).find('.icon-arrow-down').toggleClass('arrow-flip');	
 			$(this).children('div').slideToggle('fast');
 			
 			$(this).children('span').toggle(function(){

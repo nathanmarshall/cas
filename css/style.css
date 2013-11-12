@@ -3,19 +3,20 @@
 
 */
 
-
+/* IcoMoon Icon Import */
+@import url(../icomoon/style.css);
 
 /* ---- BASICS ---- */
 
 html{
 	font-family: times !important;
-	
+	height: 100%;
 }
 
 
 body{
 	-webkit-font-smoothing: antialiased;
-	
+	height: inherit;
 	
 }
 
@@ -23,7 +24,7 @@ body{
 div.content-wrapper{
 	margin: 0 auto;
 	max-width: 1024px;
-	height: 700px;
+	height: inherit;
 	width: 100%;
 	background: #F2F5F9;
 }
@@ -108,9 +109,9 @@ nav.menu li a{
 }
 
 .slide{
-	-ms-transform: translate(250px,0);
-	-webkit-transform: translate(250px,0);
-	transform: translate(250px,0);
+	-ms-transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+	transform: translate(0,0);
 }
 
 
@@ -122,6 +123,12 @@ nav.menu li a{
 		right: auto;
 		background: blue;
 	}
+	
+	.slide{
+	-ms-transform: translate(250px,0);
+	-webkit-transform: translate(250px,0);
+	transform: translate(250px,0);
+}
 
 }
 
@@ -139,7 +146,7 @@ nav.menu li a{
 
 article.expand{
 	border-bottom: 1px solid black;
-	border-top: 1px solid black;
+
 	cursor:  pointer;
 }
 
@@ -156,6 +163,23 @@ article.expand div{
 	display: none;
 }
 
+article.expand h4{
+	margin: 0;
+	padding: 1.5em 0;
+}
+
+.arrow-flip{
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+
+
+.icon-arrow-down{
+	transition: .2s;
+	font-size: 1.8em;
+	margin-top: -3px;
+}
 
 
 @media only screen and (max-width: 768px) {

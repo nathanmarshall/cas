@@ -9,10 +9,10 @@
 		<div class="content-wrapper">
 		
 		
-			<!-- An Expander -->
+			<!-- An Expander *** Copy Paste this code *** -->
 			<article class="expand">
 				<header>
-					<h4>Article Title<span>+</span></h4>
+					<h4>Article Title<span class="icon-arrow-down"></span></h4>
 					
 				</header>
 				
@@ -22,6 +22,8 @@
 			
 			</article>
 			<!-- End Expander -->
+			
+			
 			
 		</div>
 		<!-- Wrapper End -->
