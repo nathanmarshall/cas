@@ -9,12 +9,14 @@
 /* ---- BASICS ---- */
 
 html{
-	font-family: times !important;
+	font-family: "Montserrat";
 	height: 100%;
 }
 
 
 body{
+	font-size: 14px;
+	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	height: inherit;
 	
@@ -47,7 +49,7 @@ div.content-wrapper{
 section.header{
 	width: 100%;
 	height: 70px;
-	background: #8A99B5;
+	background: #2174a8;
 }
 
 section.header img{
@@ -89,6 +91,9 @@ a.toggle-nav{
 	}
 	
 }
+
+/* ----- HERO ----- */
+
 
 /* ----- MENU ----- */
 
@@ -151,12 +156,55 @@ nav.menu li a{
 
 /* ----- Hero ----- */
 
-section.hero {
-	height: 300px;
+section.hero{
+	position: relative;
+	min-width: 100%;
 	width: 100%;
+	height: 450px;
+	overflow: hidden;
+}
+
+div.video-container{
+	min-width: 100%;
+}
+
+video{
+	min-width: 100%;
 	background: url('../images/background.jpg') top center no-repeat;
 	background-size: cover;
 }
+
+/* Overlay for video */
+div.video-overlay{
+/*	background: linear-gradient(45deg, #f36921 12%,#242b4b 72%);*/
+	opacity: .85;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.herooverlay {
+	position: absolute;
+	width: 393px;
+	background-color: #1e354d;
+	opacity: .88;
+	z-index: 1000;
+	top: 5.71428571428571em;
+	right: 9.42857142857143em;
+	padding: 1.785714285em 2.42857142857143em 1.785714285em;
+	color: #e7e7e7;
+}
+
+.herooverlay h1 {
+	font-size: 1.785714285em;
+}
+
+.herooverlay h2 {
+	font-size: 1em;
+}
+
 
 @media only screen and (max-width: 768px) {
 	
@@ -165,6 +213,10 @@ section.hero {
 		top: 70px;
 		z-index: 9999;
 	}
+}
+
+section.hero > video{
+	min-width: 100%;
 }
 
 
@@ -229,4 +281,27 @@ article.expand h4{
 	nav.menu ul{
 	text-align: left;
 	}
+}
+
+/* Clearfix */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
 }
