@@ -333,7 +333,7 @@ article header {
 
 article.expand p{
 	margin: 0;
-	padding: 1em 0;
+	padding: 1em 4% 1em 2%;
 }
 
 article.expand span{
@@ -349,6 +349,10 @@ article.expand h4{
 	padding: 1.5em 0 1.5em 1.5em;
 	font-size: 1.42857142857143em;
 	color: #efefef;
+}
+.article-body.imagecaption {
+	font-size: 5em; 
+	text-align: right;
 }
 
 .arrow-flip{
