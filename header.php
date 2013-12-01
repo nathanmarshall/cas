@@ -1,9 +1,9 @@
 <!-- Header Start -->
 <section class="header">
 	<header>
-		<a href="#" class="toggle-nav" alt="Link: Menu show">=</a>
-		
+		<a href="index.php" class="toggle-nav" alt="Link: Menu show">
 		<img src="images/logo.png" align="Image: Logo">		
+		</a>
 	</header>
 </section>
 <!-- Header End -->
