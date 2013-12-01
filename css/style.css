@@ -28,9 +28,9 @@ div.content-wrapper{
 	max-width: 1024px;
 	height: inherit;
 	width: 100%;
-	background: #F2F5F9;
-}
+/*	background: #F2F5F9;*/
 
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -193,18 +193,24 @@ div.video-overlay{
 	z-index: 1000;
 	top: 5.71428571428571em;
 	right: 9.42857142857143em;
-	padding: 1.785714285em 2.42857142857143em 1.785714285em;
+	padding: 1.185714285em 2.42857142857143em 1.785714285em;
 	color: #e7e7e7;
 }
 
 .herooverlay h1 {
 	font-size: 1.785714285em;
+	text-align: center;
 }
 
 .herooverlay h2 {
-	font-size: 1em;
+	font-size: 1.05em;
+	text-align: center;
+	line-height: 1.6;
 }
 
+.herooverlay p {
+
+}
 
 @media only screen and (max-width: 768px) {
 	
@@ -221,6 +227,71 @@ section.hero > video{
 
 
 /* --- CONTENT ---- */
+
+/*landingpage.php*/
+
+.mission {
+	padding: 2.95454545454545em 0 4.5em 0;
+	border-bottom: 1px solid #d2d0d0;
+}
+.mission h2 {
+	min-width: 795px;
+	text-align: center;
+	font-size: 1.57142857142857;
+	color: #686868;
+	line-height: .3;
+
+}
+
+.mission p {
+	width: 795px;
+	padding: 1em 0 1em 0;
+	font-size: 1em;
+	color: #686868;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.values {
+	margin: 3.57142857142857em 0 0 0;
+	border-bottom: 1px solid #d2d0d0;
+}
+
+.values img {
+	width: 462px;
+	height: 374px;
+	float: left;
+		padding: 1.8em 2.35em 0 0em;
+}
+
+.values-content {
+	width: 40%;
+	float: left;
+	margin-bottom: 6.57142857142857em;
+	line-height: 1.5;
+
+}
+
+.values-content.right {
+	padding: 0 0 0 1.5em;
+}
+
+.values-content.left{
+		padding: 0 6.3em 0 1em;
+}
+
+.values-content h2 {
+	font-size: 2em;
+	color: #494949;
+}
+
+.values-content p {
+	font-size: 1em;
+	color: #686868;
+}
+
+
+
 
 
 /* Expander */
