@@ -310,7 +310,7 @@ article {
 
 article.expand{
 	width: 80%;
-	border-bottom: 1px solid black;
+/*	border-bottom: 1px solid black;*/
 	cursor:  pointer;
 }
 
